@@ -1,3 +1,8 @@
+# https://github.com/gengyuanzhang317/lab11-QZ-GZ
+# Partner 1: Gengyuan Zhang
+# Partner 2: Qianfan Zeng
+
+
 import math
 
 def add(a, b):
