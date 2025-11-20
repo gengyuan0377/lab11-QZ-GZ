@@ -1,10 +1,18 @@
-"""
-calculator.py
-- Defines functions used to create a simple calculator
 
-One function per operation, in order.
-"""
 import math
+
+def square_root(a):
+    try:
+        if a < 0:
+            raise ValueError("square_root() only defined for a >= 0")
+        return math.sqrt(a)
+    except TypeError:
+        raise TypeError("square_root() expects a number")    
+def hypotenuse(a, b):
+    try:
+        return math.hypot(a, b)
+    except TypeError:
+        raise TypeError("hypotenuse() expects two numbers")
 def add(a,b):
     return a+b
 def subtract(a,b):
